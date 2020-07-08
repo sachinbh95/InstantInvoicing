@@ -1,17 +1,5 @@
 # InstantInvoicing
 Selenium script for Instant Invoicing of the tracking numbers
-import java.io.File;
-import java.io.FileInputStream;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Invoicing {
 
@@ -56,12 +44,7 @@ public class Invoicing {
 		//driver.switchTo().defaultContent();
 		driver.navigate().refresh();
 		//("//*[@id='iiForm:instantInvoiceDynTable:instantInvoiceTable:0:_t47']")
-		}
-		
-		
-		
-		
-		
+		}		
 		driver.close();
 		
 		
