@@ -8,7 +8,7 @@ public class Invoicing {
 		System.setProperty("webdriver.chrome.driver","D:\\SOFTWARES\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-	     driver.get("https://testsso.secure.fedex.com/l2/instant-invoicing/");
+	        driver.get("https://testsso.secure.fedex.com/l2/instant-invoicing/");
 		driver.findElement(By.xpath("//*[@id='username']")).sendKeys(Keys.chord(Keys.CONTROL,Keys.SUBTRACT));
 		driver.findElement(By.xpath("//*[@id='username']")).sendKeys("804218");
 		driver.findElement(By.xpath("//*[@id='password']")).sendKeys("804218");
