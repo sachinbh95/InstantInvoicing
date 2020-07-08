@@ -43,7 +43,7 @@ public class Invoicing {
 		//*[@id='iiForm:instanceInvoice_button']
 		//driver.switchTo().defaultContent();
 		driver.navigate().refresh();
-		//("//*[@id='iiForm:instantInvoiceDynTable:instantInvoiceTable:0:_t47']")
+		("//*[@id='iiForm:instantInvoiceDynTable:instantInvoiceTable:0:_t47']")
 		}		
 		driver.close();
 		
